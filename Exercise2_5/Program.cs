@@ -10,6 +10,29 @@ namespace Exercise2_5
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите название зимнего месяца");
+            string month = Console.ReadLine();
+            Console.WriteLine("Введите температуру воздуха");
+            int temp = int.Parse(Console.ReadLine());
+
+            if ((month == "Декабрь" || month == "Январь" || month == "Февраль") && temp > 0)
+
+            {
+
+
+
+                Console.WriteLine("Дождливая зима");
+
+
+
+            }
+
+
+            else
+            {
+                Console.WriteLine("Неверный ввод");
+
+            }
         }
     }
 }
